@@ -27,9 +27,6 @@ function printClass(term, className) {
 
 main.register(function(term, command) {
     term.writeLine('welcome.txt');
-    term.writeLine('officers.txt');
-    term.writeLine('contact.txt');
-    term.writeLine('sponsor.txt');
     term.writeLine('nuclear_launch_codes.txt');
     term.prompt();
 }, 'ls');
