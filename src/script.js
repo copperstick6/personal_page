@@ -65,7 +65,7 @@ main.register(function(term, command) {
 main.register(function(term, command) {
     term.writeLine('Taking you to my resume');
     setTimeout(function() {
-        window.location = 'https://drive.google.com/file/d/0BzIbcYGQXhwdclNOMzZwNVlwRDg/view?usp=sharing';
+        window.location = 'https://drive.google.com/file/d/0BzIbcYGQXhwdMWd0cnRpMUw4Y1U/view?usp=sharing';
         term.prompt();
     }, 750);
 }, 'resume');
